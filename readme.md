@@ -259,8 +259,8 @@ Hopper: 3/5
 ## 🐛 Báo Lỗi & Hỗ Trợ
 
 Nếu gặp lỗi hoặc cần hỗ trợ, vui lòng liên hệ:
-- 📧 Email: support@example.com
-- 💬 Discord: YourDiscord#0000
+- 📧 Email: ngtin2209@gmail.com
+- 💬 Discord: ngtin22
 
 ---
 
