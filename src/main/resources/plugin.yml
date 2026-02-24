@@ -3,7 +3,7 @@ version: '1.0'
 main: me.ipapervn.vinehopper.VineHopper
 api-version: '1.21'
 load: STARTUP
-authors: [Ipapervn]
+authors: [ipaperVN]
 commands:
   vinehopper:
     description: Lệnh chính của VineHopper
