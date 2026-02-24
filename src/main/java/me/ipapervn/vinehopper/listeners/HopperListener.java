@@ -32,6 +32,8 @@ public class HopperListener implements Listener {
         String worldName = player.getWorld().getName();
 
         if (HopperManager.isWorldBlocked(worldName)) {
+            event.setCancelled(true);
+            player.sendMessage(ColorUtils.colorize(MessageManager.get("hopper-world-blocked")));
             return;
         }
 
