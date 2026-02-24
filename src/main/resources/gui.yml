@@ -1,0 +1,36 @@
+gui:
+  hopper-menu:
+    title: "<gradient:#FF6B6B:#4ECDC4>Quản Lý Hopper</gradient>"
+    size: 27
+    items:
+      info:
+        slot: 11
+        material: "PAPER"
+        name: "&#FFD700Thông Tin Hopper"
+        lore:
+          - "&#FFFFFF"
+          - "&#00FFFFVị trí: &#FFFFFF{x}, {y}, {z}"
+          - "&#00FFFFWorld: &#FFFFFF{world}"
+          - "&#00FFFFChủ sở hữu: &#FFFFFF{owner}"
+          - "&#00FFFFPhạm vi pickup: &#FFFF00{pickup-range} chunk"
+          - "&#FFFFFF"
+      remove:
+        slot: 13
+        material: "RED_CONCRETE"
+        name: "&#FF0000Xóa Hopper"
+        lore:
+          - "&#FFFFFF"
+          - "&#FFFFFFClick để xóa hopper này"
+          - "&#FFFFFFHopper sẽ được trả về túi đồ"
+          - "&#FFFFFF"
+      close:
+        slot: 15
+        material: "BARRIER"
+        name: "&#FF0000Đóng Menu"
+        lore:
+          - "&#FFFFFF"
+          - "&#FFFFFFClick để đóng menu"
+          - "&#FFFFFF"
+      fill:
+        material: "GRAY_STAINED_GLASS_PANE"
+        name: " "

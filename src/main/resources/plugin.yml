@@ -1,0 +1,11 @@
+name: VineHopper
+version: '1.0'
+main: me.ipapervn.vinehopper.VineHopper
+api-version: '1.21'
+load: STARTUP
+
+commands:
+  vinehopper:
+    description: Lệnh chính của VineHopper
+    aliases: [vh]
+    usage: /vh <reload|setlimit>

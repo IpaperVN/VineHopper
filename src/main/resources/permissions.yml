@@ -1,0 +1,4 @@
+permissions:
+  reload: "vinehopper.reload"
+  setlimit: "vinehopper.setlimit"
+  give: "vinehopper.give"
