@@ -7,13 +7,13 @@ block-world:
     - 'world'
 
 hopper:
-  display_name: "<gradient:#FF6B6B:#4ECDC4>VineHopper</gradient>"
+  display_name: "&aVineHopper"
   lore:
-    - "&#FFFFFF"
-    - "&#FFD700✦ Hopper đặc biệt của VineHopper"
-    - "&#00FFFF✦ Không thể chế tạo"
-    - "&#00FFFF✦ Chỉ có thể nhận từ Admin"
-    - "&#FFFFFF"
+    - "&7"
+    - "&7✦ Hopper đặc biệt của VineHopper"
+    - "&7✦ Không thể chế tạo"
+    - "&7✦ Chỉ có thể nhận từ Admin"
+    - "&7"
   transfer_rate: 5
   pickup_rate: 5
   pickup_range: 1
