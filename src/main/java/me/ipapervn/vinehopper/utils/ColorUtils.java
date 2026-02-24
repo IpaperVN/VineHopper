@@ -18,7 +18,7 @@ public class ColorUtils {
 
     public static void sendMultiline(org.bukkit.command.ConsoleCommandSender sender, String... lines) {
         for (String line : lines) {
-            sender.sendMessage(colorize(line));
+            sender.sendMessage(line);
         }
     }
 

@@ -54,12 +54,11 @@ public final class VineHopper extends JavaPlugin {
         }
         
         ColorUtils.sendMultiline(Bukkit.getConsoleSender(),
-            "<gradient:#00FF00:#00FFFF>================================</gradient>",
-            "<gradient:#FF6B6B:#4ECDC4>  VineHopper Plugin</gradient>",
-            "&#FFD700  Phiên bản: &#00FF00" + getPluginMeta().getVersion(),
-            "&#FFD700  Tác giả: &#00FFFF" + getPluginMeta().getAuthors(),
-            "<gradient:#00FF00:#00FFFF>  Trạng thái: KÍCH HOẠT</gradient>",
-            "<gradient:#00FF00:#00FFFF>================================</gradient>"
+            "================================",
+            "  VineHopper v" + getPluginMeta().getVersion(),
+            "  Tác giả: " + getPluginMeta().getAuthors(),
+            "  Trạng thái: KÍCH HOẠT",
+            "================================"
         );
     }
 
@@ -67,9 +66,9 @@ public final class VineHopper extends JavaPlugin {
     public void onDisable() {
         TaskManager.stopAllTasks();
         ColorUtils.sendMultiline(Bukkit.getConsoleSender(),
-            "<gradient:#FF0000:#FF6B6B>================================</gradient>",
-            "<gradient:#FF6B6B:#FF0000>  VineHopper đã tắt!</gradient>",
-            "<gradient:#FF0000:#FF6B6B>================================</gradient>"
+            "================================",
+            "  VineHopper đã tắt!",
+            "================================"
         );
     }
 
